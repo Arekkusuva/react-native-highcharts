@@ -85,6 +85,7 @@ class ChartWeb extends Component {
                   scalesPageToFit={true}
                   scrollEnabled={false}
                   automaticallyAdjustContentInsets={true}
+                  {...this.props.webViewProps}
               />
           </View>
         );
